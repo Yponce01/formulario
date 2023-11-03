@@ -1,0 +1,28 @@
+
+#button {
+background-color: black;
+border-style: none;
+color: white;
+padding: 5px 10px;
+border-radius: 30px;
+}
+
+#onvre{
+    background-color: #00001a;
+    color: aliceblue;
+}
+#mujer{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+#geis{
+    background-color:blueviolet;
+    color: aliceblue;
+}
+img {
+    width: 300px;
+    height: auto;
+    float: right;
+    padding-left: 15px ;
+    padding-right: 950px;
+}

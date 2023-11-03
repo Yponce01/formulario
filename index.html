@@ -1,0 +1,37 @@
+<link rel="stylesheet" href="style.css">
+<form action="">
+    <label for="genero">Género</label>
+    <select name="tipos-de-genero" id="genero">
+        <option value="elige" default>Elige una opción</option>
+        <option value="Hombre" id="onvre">Hombre</option>
+        <option value="Mujer" id="mujer">Mujer</option>
+        <option value="gays" id="geis">39 tipos de gays</option>
+    </select>
+    <input type="submit" value="Enviar" onclick="datos()"; id="button">
+
+    <img src="gei-jeje.jpg" alt="ya">
+        <p id="resultado"></p>
+</form>
+   
+        
+<script>
+    function datos() {
+        var generoSeleccionado = document.getElementById("genero").value;
+        var resultadoElement = document.getElementById("resultado");
+
+        if (generoSeleccionado === "Hombre") {
+            alert("Muy bien, machito como debe ser, no como los maricones!");
+        } else if (generoSeleccionado === "Mujer") {
+            alert("A la cocina");;
+        } else if (generoSeleccionado === "gays") {
+             alert("Me salió wekereke sobrino:() ");
+        } else 
+            (generoSeleccionado === "elige"); {
+                alert("No me digai q eri no binarie");
+            }
+            
+            
+            
+        
+    }
+</script>
